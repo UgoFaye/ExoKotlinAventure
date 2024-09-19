@@ -1,7 +1,7 @@
-fun CalculDefTotal(Def:Int, TArmure:Int, Quali:Int): Int {
+fun calculDefTotal(Def:Int, TArmure:Int, Quali:Int): Int {
     val Total = ( Def + TArmure + Quali)
     return Total
 }
 fun main(){
-    println(CalculDefTotal(3,2,1))
+    println(calculDefTotal(3,2,1))
 }
